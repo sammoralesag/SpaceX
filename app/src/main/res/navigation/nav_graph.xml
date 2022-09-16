@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/launchHistoryView">
+    <fragment
+        android:id="@+id/launchHistoryView"
+        android:name="com.test.spacex.ui.features.launch.LaunchHistoryView"
+        android:label="view_launch_history"
+        tools:layout="@layout/view_launch_history" >
+        <action
+            android:id="@+id/action_launchHistoryView_to_launchDetailsView"
+            app:destination="@id/launchDetailsView" />
+    </fragment>
+    <fragment
+        android:id="@+id/launchDetailsView"
+        android:name="com.test.spacex.ui.features.launch.LaunchDetailsView"
+        android:label="view_launch_details"
+        tools:layout="@layout/view_launch_details" />
+</navigation>

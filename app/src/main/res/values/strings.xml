@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SpaceX</string>
+    <string name="please_select_a_launch">Please select a launch</string>
+    <string name="patch_image">patch image</string>
+    <string name="mission_name">Mission name: %s</string>
+    <string name="rocket_name">Rocket name: %s</string>
+    <string name="launch_site_name">Launch site: %s</string>
+    <string name="launch_date">Launch date: %s</string>
+</resources>
